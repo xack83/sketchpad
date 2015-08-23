@@ -1,14 +1,57 @@
-.wrapSketch {
-	background-color: #aaa;
-	height: 600px; width: 600px;
+body {
 	margin: 0 auto;
+}
+
+button {
+	width: 120px; height: 25px;
+	background-color: orange;
+	outline: none; border: none;
+	border-radius: 2px;
+	margin: 4px;
+	font-family: Helvetica, sans;
+	font-weight: bold;
+	color: white;
+}
+
+.header {
+	height: 20px; width: 100%;
+	background-color: black;
+	top:0px;
+    left:0px;
+    position:absolute;
+    color: white;
+    font-family: Helvetica, sans;
+    font-size: 11px;
+    text-align: left;
+    padding: 4px 0px 0px 10px;
+}
+
+.wraper {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.wrapSketch {
+	margin-top: 30px;
+	display:inline-block;
+	background-color: #aaa;
+	width: 560px;
 }
 
 .square {
 	width: 20px; height: 20px;
-	background-color: #444;
+	background-color: #555;
 	padding: 0px 0px 0px 0px;
 	float: left;
 	margin-left: 1px;
 	margin-top: 1px;
 }
+
+.wrapMenu {
+	display:inline-block;
+	height: 200px; width: 150px;
+	position: absolute;
+	margin-left: -150px;
+	margin-top: 26px;
+}
+
